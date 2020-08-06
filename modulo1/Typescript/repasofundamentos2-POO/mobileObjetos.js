@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var claseMobile_1 = require("./claseMobile");
+var Nokia3210 = new claseMobile_1.Mobile("Nokia", " 3210", " Nokia", " 84 x 84 px", " Gris", false, 0, " 15 €");
+var iPhone3G = new claseMobile_1.Mobile('iPhone', ' 3G', ' Apple', ' 35"', ' Negro o Blanco', false, 1, " 80 €");
+var Samsung_Galaxy10 = new claseMobile_1.Mobile('Samsung', ' Galaxy10', ' Samsung', ' 6.1"', ' Negro o Blanco', true, 2, " 770 €");
+console.log(Nokia3210, iPhone3G, Samsung_Galaxy10);
+Nokia3210.is5G = true;
+Nokia3210.cameraNumber = 4;
+console.log(Nokia3210, iPhone3G, Samsung_Galaxy10);
